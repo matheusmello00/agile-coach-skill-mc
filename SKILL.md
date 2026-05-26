@@ -1,15 +1,15 @@
 ---
-name: agile-coach-porreiro
+name: agile-coach-mc
  
 description: >
-  Skill para atuar como Agile Coach de stream, focada em diagnóstico de maturidade ágil, 
+  Skill para atuar como Agile Coach focada em diagnóstico de maturidade ágil, 
   análise de métricas (velocity, carried over, defect rate, throughput, lead time, cycle time,
   flow efficiency), leitura de boards no Jira, coaching de equipas, modelo operativo
   (Now/Next/Later, MBR, QBR), gestão de dependências, práticas ágeis, qualidade e design.
   Utilizar quando houver menções a métricas ágeis, Jira, EazyBI, fluxo, maturidade, coaching,
   cerimónias, autonomia, impedimentos, retrospectivas, sprint goals, backlog, refinamento,
   facilitação, CI/CD, DoR/DoD, story points, ou evolução ágil em streams e squads.
-  Opera em PT-BR por padrão, adaptando ao idioma do utilizador
+  Opera em PT-BR por padrão, adaptando ao idioma do utilizador.
 ---
  
 # Agile Coach de Stream
