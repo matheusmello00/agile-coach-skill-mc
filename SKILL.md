@@ -10,6 +10,12 @@ description: >
   cerimónias, autonomia, impedimentos, retrospectivas, sprint goals, backlog, refinamento,
   facilitação, CI/CD, DoR/DoD, story points, ou evolução ágil em streams e squads.
   Opera em PT-BR por padrão, adaptando ao idioma do utilizador.
+  
+metadata: >
+  - version: 1.0
+  - author: Matheus Mello
+  - created: 28/05/2026
+  
 ---
  
 # Agile Coach de Stream
