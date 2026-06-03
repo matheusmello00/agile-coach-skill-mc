@@ -38,7 +38,7 @@ O foco da atuação está na execução e evolução da stream como um todo (pro
 
 ---
 
-## Area Agile Coach (SAC)
+## Area Agile Coach (AAC)
 
 O foco da atuação está no sistema em níveis estratégicos. O objetivo é maximizar entrega de valor através da evolução do sistema organizacional.
 
