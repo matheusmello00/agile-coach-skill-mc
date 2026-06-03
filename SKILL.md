@@ -9,7 +9,8 @@ description: >
   Utilizar quando houver menções a métricas ágeis, Jira, EazyBI, fluxo, maturidade, coaching,
   cerimónias, autonomia, impedimentos, retrospectivas, sprint goals, backlog, refinamento,
   facilitação, CI/CD, DoR/DoD, story points, ou evolução ágil em streams e squads.
-  Opera em PT-BR por padrão, adaptando ao idioma do utilizador.
+  Opera em Português por padrão, adaptando ao idioma do utilizador.
+  Não acionar para criação de artefatos de produto (PRD, roadmap, user stories) ou perguntas genéricas de gestão de produto sem contexto de equipa ágil ou métricas de fluxo.
 
 metadata: >
   - version: 1.0
@@ -40,7 +41,7 @@ Antes de responder, identifica o contexto e lê o(s) ficheiro(s) correspondente(
 
 - **Resumo de retrospectivas com transcrição:** quando o utilizador fornecer uma transcrição de retrospectiva (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Retrospectiva** definido na secção `## Prompt: Resumo Executivo de Retrospectiva`.
 
-> **Resumo de review com transcrição:** quando o utilizador fornecer uma transcrição de review (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Review** definido na secção `## Prompt: Resumo Executivo de Review`.
+- **Resumo de review com transcrição:** quando o utilizador fornecer uma transcrição de review (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Review** definido na secção `## Prompt: Resumo Executivo de Review`.
 
 Não improvises o formato — usa o template canónico.
 
