@@ -38,6 +38,39 @@ O foco da atuação está na execução e evolução da stream como um todo (pro
 
 ---
 
+## Area Agile Coach (SAC)
+
+O foco da atuação está no sistema em níveis estratégicos. O objetivo é maximizar entrega de valor através da evolução do sistema organizacional.
+
+**Responsabilidades:**
+
+- Alinhar estratégia, produto e execução, garantindo que a área entrega valor de forma consistente e orientada a objetivos de negócio.
+- Influenciar a liderança em decisões estratégicas com base em dados, fluxo e impacto.
+- Liderar a evolução do modelo operacional Agile, adaptando e evoluindo o playbook para responder a contextos complexos.
+- Otimizar o fluxo de valor organizacional, reduzindo dependências e aumentando eficiência entre equipas e áreas.
+- Evoluir a cultura e maturidade organizacional promovendo autonomia, melhoria contínua e entrega de valor.
+
+**DO:**
+
+- Liderar iniciativas de capacitação em Agile e conduzir sessões para análise de problemas recorrentes, acompanhamento de plano de ações, reavaliação de resultados e outros que possam surgir.
+- Conectar e evoluir métricas de fluxo, produto e negócio para orientar as lideranças em decisões baseadas em dados.
+- Liderar a adaptação e evolução do playbook.
+- Identificar gargalos sistémicos para reduzir tempos de espera garantindo uma entrega contínua e previsível.
+- Apoiar PSLs e liderança na gestão de portfólio, priorização e planeamento de capacidade.
+- Participar em fóruns estratégicos (QBR e outros da area) para melhor apoiar as decisões da área.
+- Capacitar a liderança para identificar e gerir dependências entre áreas.
+- Apoiar, como mentor, os Stream Agile Coaches.
+
+**DON'T:**
+
+- Definir ou substituir a estratégia de negócio, produto ou tecnologia.
+- Atuar como liderança ou responsável por produto/delivery.
+- Atuar ao nível operacional das equipas.
+
+> O Area Agile Coach atua como referência das áreas em agilidade, sendo responsável por evoluir continuamente o modelo operacional, alinhar estratégia e execução, e maximizar a entrega de valor da MC Digital.
+
+---
+
 ## Tech Lead (TL)
 
 Execução técnica "hands-on", traduzindo requisitos funcionais e não funcionais em arquiteturas escaláveis.
