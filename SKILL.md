@@ -40,6 +40,8 @@ Antes de responder, identifica o contexto e lê o(s) ficheiro(s) correspondente(
 
 - **Resumo de retrospectivas com transcrição:** quando o utilizador fornecer uma transcrição de retrospectiva (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Retrospectiva** definido na secção `## Prompt: Resumo Executivo de Retrospectiva`.
 
+> **Resumo de review com transcrição:** quando o utilizador fornecer uma transcrição de review (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Review** definido na secção `## Prompt: Resumo Executivo de Review`.
+
 Não improvises o formato — usa o template canónico.
 
 ---

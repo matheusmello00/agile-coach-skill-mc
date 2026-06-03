@@ -348,7 +348,7 @@ Analisa a transcrição da retrospectiva e produz um resumo claro, estruturado e
 
 **Output format:**
 
-1. **Resumo Executivo (máx. 5 bullets)**
+1. **Resumo Executivo**
    - Principais conclusões da retrospectiva
    - Tendências relevantes da sprint
    - Nível geral de performance da equipa
@@ -398,7 +398,7 @@ Analisa a transcrição da Sprint Review e produz um resumo estruturado e orient
 
 **Output format:**
 
-1. **Resumo Executivo (máx. 5 bullets)**
+1. **Resumo Executivo**
    - Objetivo da Sprint: (Qual era a meta principal da sprint e se foi alcançada)
    - Métricas de Entrega: (ex: Itens planejados vs. entregues, se mencionados na transcrição)
    - Perceção Geral: (Máx. 3 bullets sobre o tom da reunião e alinhamento TI vs. Negócio)
