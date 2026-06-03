@@ -38,11 +38,7 @@ Antes de responder, identifica o contexto e lê o(s) ficheiro(s) correspondente(
 | Qualidade (DoR, DoD, testes, automação, Xray, P-Zero, NFRs, boas práticas por fase)                                                                                               | `references/qualidade.md`             |
 | Cultura de design, atuação UX/UI por fase, integração Design-Produto-Engenharia                                                                                                   | `references/design.md`                |
 
-Se o pedido atravessar múltiplos módulos, lê os ficheiros em sequência antes de responder.
-
-> **Resumo de retrospectivas com transcrição:** quando o utilizador fornecer uma transcrição de retrospectiva (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Retrospectiva** definido na secção `## Prompt: Resumo Executivo de Retrospectiva`.
-
-> **Resumo de retrospectivas com transcrição:** quando o utilizador fornecer uma transcrição de review (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Review** definido na secção `## Prompt: Resumo Executivo de Review`.
+- **Resumo de retrospectivas com transcrição:** quando o utilizador fornecer uma transcrição de retrospectiva (Teams ou similar) e pedir resumo, síntese ou consolidação, carrega `references/praticas-e-cerimonias.md` e aplica o **Prompt de Resumo de Retrospectiva** definido na secção `## Prompt: Resumo Executivo de Retrospectiva`.
 
 Não improvises o formato — usa o template canónico.
 

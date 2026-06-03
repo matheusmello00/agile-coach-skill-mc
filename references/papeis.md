@@ -9,6 +9,7 @@ Referência completa dos papéis existentes na stream, com responsabilidades, DO
 O foco da atuação está na execução e evolução da stream como um todo (product teams, stream resources e projetos).
 
 **Responsabilidades:**
+
 - Desenvolver equipas autónomas e de alta performance, promovendo accountability, colaboração e melhoria contínua.
 - Garantir fluxo de entrega eficiente, através da aplicação de práticas ágeis.
 - Identificar e atuar sobre temas/problemas ao nível da stream e (quando necessário) da equipa.
@@ -16,6 +17,7 @@ O foco da atuação está na execução e evolução da stream como um todo (pro
 - Evoluir maturidade ágil das equipas da stream.
 
 **DO:**
+
 - Capacitar a equipa na facilitação das cerimónias e apoiar a evolução da maturidade ágil, promovendo práticas consistentes, melhoria contínua e maior autonomia, com redução gradual da atuação direta.
 - Incentivar e acompanhar adoção do modelo de trabalho (WOW) e práticas do Playbook.
 - Monitorizar métricas de performance (Operacional e Tático) da equipa e promover decisões baseadas em dados.
@@ -25,6 +27,7 @@ O foco da atuação está na execução e evolução da stream como um todo (pro
 - Apoiar PMs, PSLs, TSLs e TLs na preparação do QBR.
 
 **DON'T:**
+
 - Definir a estratégia de produto e as prioridades de negócio ou técnicas.
 - Atuar como gestor de projeto, product manager, delivery manager ou qualquer outro papel da stream.
 - Ser organizador das cerimónias.
@@ -40,6 +43,7 @@ O foco da atuação está na execução e evolução da stream como um todo (pro
 Execução técnica "hands-on", traduzindo requisitos funcionais e não funcionais em arquiteturas escaláveis.
 
 **Responsabilidades:**
+
 - Accountable pelo delivery técnico da equipa de produto e/ou turnkey projeto.
 - Garantir boas práticas de engenharia (qualidade de código, revisões técnicas, segurança).
 - Mentoria e desenvolvimento técnico de toda a equipa de engenharia.
@@ -48,12 +52,14 @@ Execução técnica "hands-on", traduzindo requisitos funcionais e não funciona
 - Garantia das estimativas e Planning em equipas de produto.
 
 **DO:**
+
 - Cria documentação de Modelo de Suporte ou coordena a criação dos documentos técnicos com os Developers; coordena a passagem de conhecimento para o suporte.
 - Orquestra o processo de Change Enablement e executa o processo de Change Enablement (para Equipa de Produto): criar o CR; coordenar com as equipas técnicas para que as documentações técnicas e de teste estejam na CR; coordenar a execução da CR com as equipas executoras; acompanhar a implementação da CR na janela aprovada.
 - Suporta o processo de Change Enablement dando apoio ao Project Manager (para iniciativas do tipo Projeto).
 - Alinhar requisitos técnicos de segurança.
 
 **DON'T:**
+
 - Orquestra o processo de Modelo de Suporte (responsabilidade do PM).
 
 ---
@@ -63,23 +69,24 @@ Execução técnica "hands-on", traduzindo requisitos funcionais e não funciona
 Gestão técnica e evolução tecnológica e coerência técnica dentro de um domínio específico.
 
 **Responsabilidades:**
+
 - Accountable pelo delivery técnico do domínio (equipas produto/turnkeys projeto).
 - Coordenar Tech Leads e engenheiros.
 - Liderança de estratégia técnica do domínio (alinhado com TSL).
 - Equilibrar desenvolvimento técnico com gestão de pessoas e processos.
 - Garantir alinhamento técnico entre equipas e desbloquear problemas de delivery.
 
-> *Delivery: Processo do SDLC E2E — desenvolvimento, qualidade, release e operação (em equipas DevOps).*
+**DO:**
 
----
+- Promover a evolução técnica do domínio, garantindo consistência de arquitetura, padrões e automação.
+- Apoiar a avaliação de dependências técnicas e a sua priorização.
+- Contribuir para o QBR com input técnico de capacidade, riscos e necessidade de alinhamento entre áreas.
 
-## Tech Stream Leader (TSL)
+**DON'T:**
 
-**Responsabilidades:**
-- Accountable pelo delivery técnico da stream.
-- Coordenação geral da stream a nível de Arquitetura, Segurança, Tech Stack & Best Practices (CI/CD, Automation, etc.).
-- Melhoria contínua do flow e Ways of Working da stream em alinhamento com Produto.
-- Alinhamento técnico a alto nível com outras streams e equipas centrais.
+- Assumir decisões táticas de delivery que competem ao Tech Lead ou ao Product Manager.
+- Substituir o papel de TL na orientação técnica diária da equipa.
+
 - Garantir visão técnica a longo prazo (3+ anos) para produtos e soluções da stream.
 
 ---
@@ -89,6 +96,7 @@ Gestão técnica e evolução tecnológica e coerência técnica dentro de um do
 Responsável por definir a visão do produto e garantir que a equipa entrega o máximo valor ao negócio e aos utilizadores. Atua como ponte entre as necessidades do mercado, os objetivos estratégicos e a execução da equipa de desenvolvimento.
 
 **Responsabilidades:**
+
 - Definir e comunicar a visão do produto.
 - Gerir o roadmap do produto — definir a estratégia e prioridades de evolução com base em dados, feedback e necessidades do negócio.
 - Alinhar expectativas com Stakeholders.
@@ -97,6 +105,7 @@ Responsável por definir a visão do produto e garantir que a equipa entrega o m
 - Garantir a construção do story mapping das iniciativas aprovadas em QBR na fase de planeamento e estruturação.
 
 **DO:**
+
 - Garantir visão de longo prazo para o produto (estratégia a 3 anos) e definição de metas estratégicas.
 - Assegurar pesquisa de mercado e de utilizadores finais.
 - Garantir a priorização de features num roadmap e assegurar a execução com buy-in dos business owners.
@@ -109,6 +118,7 @@ Responsável por definir a visão do produto e garantir que a equipa entrega o m
 - Status Report para o Negócio e Stakeholders envolvidos.
 
 **DON'T:**
+
 - Facilita eventos/cerimónias de Daily e Sprint Retrospective da Product Team.
 - Executa o processo de Change Enablement (criar CR, alinhar com equipas técnicas, participar do Go Live, criar documentações técnicas).
 
@@ -119,12 +129,15 @@ Responsável por definir a visão do produto e garantir que a equipa entrega o m
 Responsável pela visão tecnológica da área de negócio sob a sua gestão, coordenando os Product Managers da sua stream.
 
 **Responsabilidades:**
+
 - Definir e comunicar a visão tecnológica da área de negócio.
 - Gerir e coordenar os Product Managers.
 - Assegurar a evolução tecnológica dos produtos.
 - Facilitar a tomada de decisão — analisar impacto tecnológico, dependências e viabilidade.
 - Fomentar inovação e melhoria contínua.
 - Liderar o processo de construção de roadmap para o QBR, garantindo que Ideias, Iniciativas e Dependências possuem datas preenchidas e os agreements necessários.
+- Coordenar a preparação do QBR e assegurar que as iniciativas em NEXT tenham MBR de confirmação alinhado.
+- Garantir que decisões de prioridade considerem capacidade, dependências e visibilidade de stakeholders.
 
 ---
 
@@ -133,6 +146,7 @@ Responsável pela visão tecnológica da área de negócio sob a sua gestão, co
 Pessoas empenhadas em criar qualquer aspeto de um Incremento utilizável em cada Sprint. Inclui Tech Leads, Developers, QAs e Designers. Um parceiro externo pode ser considerado parte da equipa ou extensão da equipa interna.
 
 **DO:**
+
 - Criar um plano para o Sprint (Sprint Backlog) e ser responsável pela manutenção e cumprimento deste plano.
 - Incutir qualidade, aderindo a uma Definition of Done.
 - Adaptar o seu plano todos os dias na direção do Sprint Goal.
@@ -140,6 +154,7 @@ Pessoas empenhadas em criar qualquer aspeto de um Incremento utilizável em cada
 - Incorporar a segurança no ciclo de desenvolvimento.
 
 **DON'T:**
+
 - Criar planos e timelines para o negócio.
 - Fazer sessões de Kick-off ou status report.
 - Fazer a gestão de parceiros, caso haja algum envolvido com a iniciativa.
@@ -151,6 +166,7 @@ Pessoas empenhadas em criar qualquer aspeto de um Incremento utilizável em cada
 Responsável por garantir que os produtos desenvolvidos cumprem os padrões de qualidade estabelecidos, funcionam conforme os requisitos definidos e proporcionam a melhor experiência possível aos utilizadores.
 
 **Responsabilidades:**
+
 - Definir critérios de qualidade — trabalhar com PMs, Developers e outras equipas para estabelecer padrões e critérios de aceitação.
 - Planear e executar testes — criar, automatizar e realizar testes manuais e automatizados.
 - Garantir a cobertura de testes — assegurar que todas as funcionalidades críticas são testadas.
@@ -163,10 +179,10 @@ Responsável por garantir que os produtos desenvolvidos cumprem os padrões de q
 
 ## Tabela de Relação — AC com Cada Papel
 
-| Papel | Como o AC atua |
-|---|---|
-| PM / PSL | Apoia na conexão entre backlog e valor de negócio; prepara QBR e MBR com dados |
-| TL / TDL / TSL | Alinha expectativas de DoD e qualidade; não interfere em decisões técnicas |
-| Dev Team | Protege de interrupções; promove autonomia e auto-organização |
-| QAE | Alinha práticas de qualidade com maturidade ágil da equipa |
-| AAC | Reporta temas sistêmicos e transversais que ultrapassam o nível da stream |
+| Papel          | Como o AC atua                                                                 |
+| -------------- | ------------------------------------------------------------------------------ |
+| PM / PSL       | Apoia na conexão entre backlog e valor de negócio; prepara QBR e MBR com dados |
+| TL / TDL / TSL | Alinha expectativas de DoD e qualidade; não interfere em decisões técnicas     |
+| Dev Team       | Protege de interrupções; promove autonomia e auto-organização                  |
+| QAE            | Alinha práticas de qualidade com maturidade ágil da equipa                     |
+| AAC            | Reporta temas sistêmicos e transversais que ultrapassam o nível da stream      |

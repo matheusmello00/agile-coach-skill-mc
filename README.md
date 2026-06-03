@@ -1,12 +1,11 @@
 # Agile Coach
 
 Autor : Matheus Mello
-
 Data : 25/05/2026
 
 ## Visão geral
 
-Esta skill foi criada para atuar como **Agile Coach de Stream** em contextos de coaching, análise de métricas, maturidade ágil, fluxo de entrega, qualidade, design e governança operacional.
+Esta skill foi criada para atuar como **Agile Coach** em contextos de coaching, análise de métricas, maturidade ágil, fluxo de entrega, qualidade, design e governança operacional.
 
 Ela foi pensada para uso em ambientes compatíveis com **Claude Code**, **VS Code** e **Cursor**, com foco em respostas práticas, orientadas a dados e alinhadas ao papel do Agile Coach.
 
@@ -24,6 +23,7 @@ A skill ajuda a:
 ## Estrutura
 
 - `SKILL.md` — definição principal da skill e instruções de comportamento.
+- `playbook-comparison-summary.md` — documento de avaliação do alinhamento entre a skill e o Playbook MC Digital.
 - `references/`
   - `design.md` — cultura de design, atuação do design no ciclo de vida e diretivas do Agile Coach.
   - `metricas.md` — métricas ágeis e interpretação operacional.
@@ -62,15 +62,3 @@ A skill opera preferencialmente em **Português**, adaptando-se ao idioma do uti
 - **Usar a referência correta conforme o contexto**.
 - **Focar em delivery, qualidade e autonomia das equipas**.
 - **Se não souber a resposta , utilizar a LLM/internet para pesquisa e resposta**.
-
-## Observações
-
-- Esta versão está alinhada com a estrutura atual da skill.
-- Recomenda-se manter uma única versão ativa da skill para evitar duplicidade e inconsistência.
-- Se você quiser evoluir a skill, o melhor próximo passo é padronizar nome, metadata e navegação entre versões.
-
-## Próximos passos sugeridos
-
-- adicionar metadata no `SKILL.md`;
-- padronizar o nome da skill entre versões;
-- revisar se a versão antiga deve ser mantida como backup ou removida da área ativa.

@@ -4,6 +4,21 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 
 ---
 
+## Níveis de Métricas
+
+As métricas são classificadas em três níveis para apoiar decisões em diferentes momentos do ciclo de trabalho:
+
+- **Estratégico** — métricas que suportam alinhamento de portfólio, QBR e decisão de investimento.
+- **Tático** — métricas que ajudam a coordenar a execução entre streams, priorização e dependências.
+- **Operacional** — métricas que suportam a entrega diária, o fluxo do board e a previsibilidade da equipa.
+
+### Como usar no contexto MC Digital
+
+- **QBR:** usa métricas estratégicas e táticas para validar prioridades do roadmap e decidir quais iniciativas avançam para NOW.
+- **MBR:** usa métricas táticas e operacionais para acompanhar o pipeline de Now/Next/Later e identificar bloqueios antes do próximo QBR.
+
+---
+
 ## Velocity (SP e %)
 
 **O que é:** Permite analisar a estabilidade e previsibilidade dos sprints, comparando o que foi planeado, alterado e efetivamente entregue.
@@ -13,17 +28,20 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Usar para identificar padrões de variação (adições, remoções, cancelamentos) e a fiabilidade do cumprimento dos compromissos assumidos. Ajuda a perceber a capacidade real da equipa.
 
 **Interpretação:**
+
 - Velocity é um indicador de capacidade, não de produtividade. Nunca usar para comparar equipas.
 - Variação de ±20% entre sprints é considerada normal.
 - Queda sustentada (3+ sprints) indica problema de fluxo, dívida técnica ou instabilidade.
 - Crescimento constante sem aumento de qualidade pode indicar inflação de estimativas.
 
 **Thresholds:**
+
 - Variação aceitável: ±20% da média dos últimos 3 sprints
 - Alerta: queda >30% em sprint isolado — investigar causa
 - Crítico: tendência de queda por 3 sprints consecutivos
 
 **Perguntas de coaching:**
+
 - "O que mudou neste sprint que pode explicar a variação?"
 - "Estamos a planear com base na velocity real ou na que gostaríamos de ter?"
 - "A velocity reflete entregas reais de valor ou há itens parcialmente concluídos?"
@@ -39,11 +57,13 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Usar para atuar em sprints com mudanças excessivas que impactam previsibilidade e foco da equipa, e/ou identificar padrão de comportamento de alta variação entre sprints.
 
 **Thresholds:**
+
 - Aceitável: variação ≤15% do planeado inicial
 - Alerta: variação entre 15–30%
 - Crítico: variação >30% ou padrão recorrente de adições durante o sprint
 
 **Perguntas de coaching:**
+
 - "Porque é que estamos a adicionar itens durante o sprint? São urgências reais ou falta de planeamento?"
 - "O refinamento está a ser feito com antecedência suficiente?"
 - "O Sprint Goal está a proteger a equipa de interrupções externas?"
@@ -59,9 +79,10 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Se for recorrente ou alto, rever capacidade, refinamento e critérios de compromisso nos sprints.
 
 **Thresholds:**
+
 - ~10–15%: estável / maduro
 - 15–20%: equipas a estabilizar — monitorizar
-- >20–25%: alerta — investigar causas e atuar
+- > 20–25%: alerta — investigar causas e atuar
 - Crítico: mesmo item carregado por 2+ sprints consecutivos
 
 **Nota importante:** NÃO se deve redimensionar os Story Points de um carried over. A "falha" na estimativa precisa acontecer para a equipa discutir e interpretar o que impediu a conclusão.
@@ -69,6 +90,7 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Anti-patterns associados:** ver `references/praticas-e-cerimonias.md` → "Gestão de Carry Over"
 
 **Perguntas de coaching:**
+
 - "Quando identificámos que este item não seria entregue? O que nos impediu de agir antes?"
 - "Este item estava bem refinado quando entrou no sprint?"
 - "Estamos a planear para a equipa que temos ou para a que gostaríamos de ter?"
@@ -84,6 +106,7 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Usar para detetar falta de foco, problemas de planeamento ou dependências frequentes. Pode evidenciar também uma falha da equipa na estimativa de SP dos cartões.
 
 **Thresholds:**
+
 - Alerta: mesmo item carried over 2 sprints consecutivos
 - Crítico: item carried over 3+ sprints — requer análise de causa raiz imediata
 
@@ -98,11 +121,13 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Usar para identificar iniciativas com maior taxa de defeitos nas sprints e com necessidade de melhoria no processo de desenvolvimento.
 
 **Distinção importante (Bug vs Incident vs Problem):**
+
 - **Bug:** erro antes da produção, identificado durante testes/verificação de qualidade
 - **Incident:** erro em produção que exige ação da equipa; tem SLA e está integrado com o ITSM
 - **Problem:** causa raiz que impacta múltiplos incidents; criado via integração ITSM-Jira
 
 **Thresholds:**
+
 - Alerta: aumento >20% em relação à média dos últimos 3 sprints
 - Crítico: incidents de produção recorrentes no mesmo componente/funcionalidade
 
@@ -149,10 +174,12 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Monitorizar se o tempo total das entregas está a melhorar ou a piorar e identificar etapas do fluxo onde existem atrasos.
 
 **Interpretação combinada:**
+
 - Lead time alto com cycle time baixo = gargalo de priorização/planeamento, não de execução
 - Lead time alto com cycle time alto = gargalo no processo de desenvolvimento
 
 **Thresholds:**
+
 - Alerta: lead time médio >3x o cycle time médio (indica tempo em fila desproporcional)
 - Crítico: itens com lead time >30 dias sem justificativa de complexidade
 
@@ -167,6 +194,7 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Encontrar gargalos na fase de execução e ajustar práticas de trabalho, limites de WIP ou dependências para reduzir o tempo médio de conclusão.
 
 **Thresholds (referência — calibrar com histórico da equipa):**
+
 - Story: target ≤5 dias úteis
 - Bug: target ≤3 dias úteis
 - Alerta: itens com cycle time >2x a média da equipa
@@ -182,11 +210,13 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 **Como utilizar:** Detetar onde as tarefas passam mais tempo em espera e atuar nesses pontos — ajustando WIP, removendo bloqueios e dando foco na fluidez do processo.
 
 **Thresholds:**
+
 - Referência de mercado: 15–40% (lean/ágil maduro)
 - Alerta: <15%
 - Excelente: >40%
 
 **Perguntas de coaching:**
+
 - "Onde os itens passam mais tempo parados? Em qual coluna do board?"
 - "Temos handoffs desnecessários que introduzem espera?"
 - "O WIP está controlado ou há muitos itens em paralelo?"
@@ -209,40 +239,40 @@ A previsibilidade das iniciativas baseia-se na comparação entre datas Estimado
 
 ### Campos "Estimated" (compromisso assumido no QBR)
 
-| Campo | O que representa | Quando é preenchido |
-|---|---|---|
-| QBR Estimated Start Date | Compromisso de quando a Initiative arranca (move para "In Progress") | Idea → ao mover para "Approval" / "Approved"; Initiative → ao mover para "In Progress" |
-| QBR Estimated Launch Date | Compromisso da data de entrada em produção (estado "Launch") | Mesmos momentos acima |
-| QBR Estimated End Date | Compromisso de quando a Initiative transita completamente para Operação (estado "Operation") | Mesmos momentos acima |
+| Campo                     | O que representa                                                                             | Quando é preenchido                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| QBR Estimated Start Date  | Compromisso de quando a Initiative arranca (move para "In Progress")                         | Idea → ao mover para "Approval" / "Approved"; Initiative → ao mover para "In Progress" |
+| QBR Estimated Launch Date | Compromisso da data de entrada em produção (estado "Launch")                                 | Mesmos momentos acima                                                                  |
+| QBR Estimated End Date    | Compromisso de quando a Initiative transita completamente para Operação (estado "Operation") | Mesmos momentos acima                                                                  |
 
 **Nota:** Alteração após QBR requer pedido por email ao PMO (se aprovado pelo Diretor).
 
 ### Campos "Current" (estimativa atualizada — alterável)
 
-| Campo Jira | Alcunha | Alterável após QBR? | O que representa |
-|---|---|---|---|
-| Start Date | Start Date | ✅ | Visão atualizada de quando a Initiative vai efetivamente arrancar. Não pode ser ajustado após entrar em "In Progress". |
-| Launch Date | Launch Date | ✅ | Visão atualizada da data de implementação em produção. Não pode ser ajustado após entrar em "Launch". |
-| End Date | Due Date | ✅ | Visão atualizada de quando a Initiative será concluída. Não pode ser ajustado após entrar em "Operation". |
+| Campo Jira  | Alcunha     | Alterável após QBR? | O que representa                                                                                                       |
+| ----------- | ----------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Start Date  | Start Date  | ✅                  | Visão atualizada de quando a Initiative vai efetivamente arrancar. Não pode ser ajustado após entrar em "In Progress". |
+| Launch Date | Launch Date | ✅                  | Visão atualizada da data de implementação em produção. Não pode ser ajustado após entrar em "Launch".                  |
+| End Date    | Due Date    | ✅                  | Visão atualizada de quando a Initiative será concluída. Não pode ser ajustado após entrar em "Operation".              |
 
 ### Campos "Actual" (datas reais — não alteráveis)
 
-| Campo | O que representa |
-|---|---|
+| Campo                                      | O que representa                                                                                 |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | Actual Start Date (In Progress Start Date) | Data real em que a Initiative foi movida para "In Progress". Guardada automaticamente pelo Jira. |
-| Actual Launch Date | Data real em que a Initiative foi movida para "Launch". Guardada automaticamente. |
-| Actual End Date | Data real em que a Initiative foi movida para "Operation". Guardada automaticamente. |
+| Actual Launch Date                         | Data real em que a Initiative foi movida para "Launch". Guardada automaticamente.                |
+| Actual End Date                            | Data real em que a Initiative foi movida para "Operation". Guardada automaticamente.             |
 
 ---
 
 ## Diagnóstico Combinado de Métricas
 
-| Sintoma observado | Métricas a cruzar | Hipótese provável |
-|---|---|---|
-| Velocity caindo + carried over alto | Velocity + Carried Over + Cycle Time | Overcommitment ou bloqueios não endereçados |
-| Equipa "entrega" mas stakeholder reclama | Lead Time + Backlog Variation | Fila de entrada alta; priorização ineficaz |
-| Muitos bugs após sprints rápidos | Velocity + Defect Rate | Velocidade a sacrificar qualidade |
-| Time parece ocupado mas entrega pouco | Flow Efficiency + Cycle Time | Muito WIP; trabalho em paralelo excessivo |
-| Backlog cresce sem controlo | Throughput + Lead Time | Ausência de depuração ativa do backlog |
-| Sprints instáveis com muitas alterações | Backlog Variation + Velocity | Refinamento insuficiente; scope creep |
-| Incidents a aumentar após releases | Defect Rate + Throughput | Qualidade a ser sacrificada por velocidade |
+| Sintoma observado                        | Métricas a cruzar                    | Hipótese provável                           |
+| ---------------------------------------- | ------------------------------------ | ------------------------------------------- |
+| Velocity caindo + carried over alto      | Velocity + Carried Over + Cycle Time | Overcommitment ou bloqueios não endereçados |
+| Equipa "entrega" mas stakeholder reclama | Lead Time + Backlog Variation        | Fila de entrada alta; priorização ineficaz  |
+| Muitos bugs após sprints rápidos         | Velocity + Defect Rate               | Velocidade a sacrificar qualidade           |
+| Time parece ocupado mas entrega pouco    | Flow Efficiency + Cycle Time         | Muito WIP; trabalho em paralelo excessivo   |
+| Backlog cresce sem controlo              | Throughput + Lead Time               | Ausência de depuração ativa do backlog      |
+| Sprints instáveis com muitas alterações  | Backlog Variation + Velocity         | Refinamento insuficiente; scope creep       |
+| Incidents a aumentar após releases       | Defect Rate + Throughput             | Qualidade a ser sacrificada por velocidade  |
