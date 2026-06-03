@@ -119,8 +119,19 @@ Gestão técnica e evolução tecnológica e coerência técnica dentro de um do
 
 - Assumir decisões táticas de delivery que competem ao Tech Lead ou ao Product Manager.
 - Substituir o papel de TL na orientação técnica diária da equipa.
-
 - Garantir visão técnica a longo prazo (3+ anos) para produtos e soluções da stream.
+
+---
+
+## Tech Stream Leader (TSL)
+
+**Responsabilidades:**
+
+- Accountable pelo delivery técnico da Stream.
+- Coordenação geral da Stream a nível de Arquitetura, Segurança, Tech Stack & Best Practices (CI/CD, Automation, etc.).
+- Melhoria contínua do flow e Ways of Working da Stream em alinhamento com Produto.
+- Alinhamento Técnico a alto nível com outras Streams, equipas centrais.
+- Garantir visão técnica a longo prazo (3+ anos) para produtos e soluções da Stream.
 
 ---
 

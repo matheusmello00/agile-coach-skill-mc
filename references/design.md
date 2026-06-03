@@ -1,131 +1,8 @@
-# Design — Cultura e Atuação
+# Design
 
-A Cultura de Design estabelece a forma como pensamos, colaboramos e entregamos valor. É o alicerce que garante que cada produto nasce centrado no utilizador, alinhado com os objetivos do negócio e tecnicamente sólido. É uma filosofia transversal — onde Design, Negócio, Produto e Engenharia trabalham como um único sistema.
+## Diretivas de Design para o Agile Coach
 
----
-
-## Princípios da Cultura de Design
-
-| Princípio                                | O que significa                                                                                 |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Empatia e Centralidade no Utilizador** | Cada decisão parte de necessidades reais, suportadas por evidência e validação                  |
-| **Colaboração Multidisciplinar**         | Design, Produto e Engenharia atuam de forma integrada desde a ideação até à operação            |
-| **Consistência e Rastreabilidade**       | Entregáveis padronizados, decisões registadas e alinhamento claro entre etapas do ciclo de vida |
-| **Qualidade e Inclusão**                 | Usabilidade, acessibilidade e robustez são critérios inegociáveis                               |
-| **Iteração e Aprendizagem Contínua**     | Descobrir, testar e refinar é um fluxo permanente, não uma etapa isolada                        |
-
----
-
-## Atuação do Design no Ciclo de Vida
-
-### Ideation
-
-**Foco:** compreender o problema.
-**Outputs:** hipóteses priorizadas e mapa de problemas.
-
-- UI/UX, Negócio e PM priorizam hipóteses.
-- UI/UX e PM conduzem pesquisas.
-- Engenharia avalia viabilidade inicial.
-
-### Exploration
-
-**Foco:** estruturar a solução.
-**Outputs:** fluxos aprovados e backlog inicial.
-
-- UI/UX e PM produzem requisitos.
-- PM refina requisitos.
-- UI/UX produz fluxos e wireframes.
-- Engenharia valida dependências.
-
-### Evaluation
-
-**Foco:** gerar e testar opções.
-**Outputs:** protótipo validado e documentação visual.
-
-- PM valida critérios de aceitação.
-- UI/UX itera protótipos.
-- Engenharia apoia testes e viabilidade.
-
-### Approval
-
-**Foco:** validar qualidade antes do desenvolvimento.
-**Outputs:** solução aprovada.
-
-- PM aprova a solução.
-- UI/UX ajusta detalhes finais.
-- Engenharia prepara implementação.
-
-### Planning & In Progress
-
-**Foco:** transformar design em produto.
-**Outputs:** implementação fiel ao design.
-
-- PM mantém alinhamento com roadmap.
-- UI/UX apoia desenvolvimento.
-- Engenharia implementa e ajusta.
-
-### Stabilization & Operation
-
-**Foco:** analisar impacto real.
-**Outputs:** insights e backlog de melhorias.
-
-- UI/UX, Negócio e PM analisam métricas (KPIs, SEO, Google Analytics, etc.).
-- UI/UX avalia experiência real.
-- Engenharia otimiza e dá suporte.
-
----
-
-## Integração no Dia a Dia
-
-Práticas concretas que traduzem a cultura em ação:
-
-- **Antecipação do trabalho de Design** — ≈2 sprints antes do desenvolvimento. A partilha estratégica das entregas trimestrais/anuais (high level) com a equipa de Design influencia a ordem de entregas para melhor impactar a experiência.
-- **Participação ativa em cerimónias** — plannings, refinements, reviews e retrospectives.
-- **Documentação consistente** — no Figma, Confluence e Jira.
-- **Colaboração contínua com QAs** — em testes funcionais, de usabilidade e acessibilidade.
-
----
-
-## Integração de Design no Jira e no DoD
-
-O trabalho de Design deve ser rastreável no Jira e considerado parte do ciclo de entrega. Isso inclui:
-
-- **Tasks de Design ligadas a User Stories** — quando a solução impacta front-end ou experiência do utilizador, o Designer deve criar ou atualizar tasks de design relacionadas à história.
-- **Link entre Design e Desenvolvimento** — use linked issues no Jira para manter a rastreabilidade entre artefatos de design, protótipos e implementações.
-- **Critérios de aceitação com UX** — sempre incluir aspetos de usabilidade, acessibilidade e consistência com o design system nos critérios de aceitação.
-- **DoD condicionado ao Design** — itens que impactam a experiência do utilizador só devem ser considerados “Done” após validação pelo Designer ou revisão do UX/UI.
-- **Feedback contínuo** — o Designer deve acompanhar o desenvolvimento e validar ajustes de implementação diretamente com a equipa técnica.
-
----
-
-## Papéis dos 3 Pilares
-
-### Product Manager
-
-- Garante que decisões estratégicas consideram a experiência.
-- Prioriza problemas validados antes de definir soluções.
-- Alinha impacto para o cliente com objetivos do negócio.
-
-### UX/UI Designer
-
-- Contribui para a visão e estratégia de produto, garantindo equilíbrio entre objetivos de negócio e necessidades do utilizador.
-- Conduz pesquisa e validação com utilizadores para informar decisões estratégicas e de design.
-- Transforma insights em fluxos, wireframes, protótipos e especificações visuais.
-- Realiza avaliação heurística e testes de usabilidade, classificando issues por severidade.
-- Facilita alinhamento entre produto, engenharia e negócio através de colaboração ativa.
-- Assegura acessibilidade (WCAG), consistência (design system) e qualidade na implementação.
-
-### Engenharia
-
-- Participa desde a ideação para garantir soluções exequíveis.
-- Colabora em testes funcionais, de experiência e de acessibilidade.
-- Suporta prototipação e ajustes incrementais, reduzindo retrabalho.
-
----
-
-## Diretivas de Design para o AC
-
-O AC deve conhecer e respeitar a cultura de design ao atuar na stream. As diretivas abaixo orientam como o AC deve considerar o design no seu trabalho:
+O Agile Coach deve conhecer e respeitar a cultura de design ao atuar na stream. As diretivas abaixo orientam como o Agile Coach deve considerar o design no seu trabalho:
 
 1. **Respeitar a antecipação do Design.** O Design trabalha ~2 sprints à frente do desenvolvimento. O AC não deve pressionar equipas a iniciar desenvolvimento sem que o design esteja validado.
 
@@ -145,8 +22,7 @@ O AC deve conhecer e respeitar a cultura de design ao atuar na stream. As direti
 
 ## Ferramentas de Design
 
-| Ferramenta     | Uso                                                                     |
-| -------------- | ----------------------------------------------------------------------- |
-| **Figma**      | Source of truth visual — fluxos, wireframes, protótipos, design system  |
-| **Confluence** | Documentação de decisões de design e especificações                     |
-| **Jira**       | Rastreabilidade de tarefas e entregáveis de design no fluxo de trabalho |
+| Ferramenta     | Uso                                                                    |
+| -------------- | ---------------------------------------------------------------------- |
+| **Figma**      | Source of truth visual — fluxos, wireframes, protótipos, design system |
+| **Figma Make** | Ferramenta de criação de wireframes com IA                             |
