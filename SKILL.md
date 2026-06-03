@@ -12,10 +12,6 @@ description: >
   Opera em Português por padrão, adaptando ao idioma do utilizador.
   Não acionar para criação de artefatos de produto (PRD, roadmap, user stories) ou perguntas genéricas de gestão de produto sem contexto de equipa ágil ou métricas de fluxo.
 
-metadata: >
-  - version: 1.0
-  - author: Matheus Mello
-  - created: 28/05/2026
 ---
 
 # Agile Coach de Stream
