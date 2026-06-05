@@ -177,7 +177,8 @@ Referência completa das práticas ágeis e cerimónias utilizadas na stream, co
 - Usar ferramentas de análise (ex: Diagrama de Ishikawa) para identificar causas raiz.
 - Não sobrecarregar o sprint — capacidade baseada em dados reais.
 - Dividir histórias grandes em partes menores e entregáveis.
-- Identificar e gerir dependências e bloqueios cedo.
+- Identificar e gerir dependências e bloqueios cedo; diferenciar dependências inter-stream de impedimentos internos.
+- Analisar dependências no Refinement antes do Sprint Planning para evitar surpresas.
 - Rever métricas e causas no Retro e Sprint Review.
 
 ### Boas práticas para gerir um carry over:

@@ -172,32 +172,73 @@ Story Points refletem trabalho planeado, previsível e de valor direto.
 
 Uma dependência representa a necessidade de alinhamento, colaboração ou integração entre equipas que impacta diretamente a capacidade de entrega, caso não haja a intervenção ou contributo da outra equipa.
 
-### Princípios:
+### O que é uma dependência?
 
-- A equipa que identifica a dependência efetua o seu registo para a equipa que irá receber.
+- É um compromisso explícito entre uma Requester Stream e uma Delivery Stream.
+- É usada quando parte do trabalho necessário para entregar uma Iniciativa depende de outra equipa.
+- Não deve ser usada para trabalho interno à mesma Stream; nesses casos, prefira Épicos ou Initiatives locais.
+
+### Tipos de dependência
+
+- **Delivery**: trabalho a ser entregue pela equipa responsável pela execução.
+- **Discovery**: apoio necessário nas fases iniciais de descoberta, análise ou definição.
+
+### Princípios
+
+- A equipa que identifica a dependência efetua o registo para a equipa que irá receber.
 - Alinhar a dependência com a equipa responsável para análise e resolução.
 - Estabelecer uma relação clara 1 para 1, promovendo responsabilidade, transparência e alinhamento.
-- As dependências estão associadas a Ideas e Initiatives.
+- As dependências devem estar associadas a Ideas e Initiatives.
+- Depois de aceite, a Delivery Stream é responsável por manter o estado atualizado.
 
-### Quando criar uma Dependency no Jira:
+### Quando criar uma Dependency no Jira
 
 **Iniciativas do tipo Produto:** uso mais comum. A dependência deve ser aberta diretamente para a Product Team responsável, que gere o trabalho no seu próprio espaço. O mais relevante para a equipa solicitante é a entrega nas datas alinhadas.
 
-**Iniciativas do tipo Projeto:** quando o trabalho de uma ou mais PTs está claramente definido no âmbito, não é necessário registar dependências — usar Épicos referenciados à Initiative. Se surgem necessidades não identificadas no âmbito inicial, o uso de dependências é recomendado.
+**Iniciativas do tipo Projeto:** quando o trabalho de uma ou mais PTs está claramente definido no âmbito, não é necessário registar dependências — use Épicos referenciados à Initiative. Se surgem necessidades não identificadas no âmbito inicial, o uso de dependências é recomendado.
 
 **Equipas Transversais:** não criam nem recebem dependências — o seu modelo é de fluxo contínuo.
 
-**Product Teams da mesma Stream ou com o mesmo PM:** o registo não é obrigatório. O alinhamento tende a ser mais direto; usar Épicos associados à Initiative.
+**Product Teams da mesma Stream ou com o mesmo PM:** o registo não é obrigatório. O alinhamento tende a ser mais direto; use Épicos associados à Initiative.
 
-### Momentos de identificação:
+### Cenários de uso
 
-- Fase de exploração
-- Avaliação
-- Fases mais avançadas do projeto
+**Cenário 1 — Dependência como Épico:**
+- Quando apenas parte do trabalho depende de outra Stream.
+- A dependência é criada como um issue do tipo Dependency e a Delivery Stream cria os child work items necessários (Stories, Tasks, Spikes).
+- Use este modelo quando o trabalho for suficientemente focado e não justificar uma iniciativa própria.
 
-O compromisso formal ocorre quando a equipa responsável aceita a dependência — o issue deve estar ligado à iniciativa via link "é uma dependência de".
+**Cenário 2 — Dependência corresponde a uma Initiative:**
+- Quando o trabalho necessário da Delivery Stream tem dimensão ou complexidade suficientes para justificar uma Initiative própria.
+- A Delivery Stream analisa a dependência, aceita o pedido e cria a Initiative no seu board.
+- Deve haver links claros: Initiative A "Depends On" Initiative B e Dependency "Duplicates" Initiative B, além da associação à Initiative Aggregator.
 
-### Como escalar dependências não resolvidas:
+**Cenário 3 — Iniciativa totalmente entregue por outra Stream:**
+- Exceção: a iniciativa pertence à Requester Stream, mas a execução é integralmente realizada pela Delivery Stream.
+- Se já existir um Dependency, a dependência deve ser aceite e associada à nova Initiative movida para a Stream B.
+- A Requester Stream deve preencher obrigatoriamente os campos `Requester Stream` e `Delivery Stream` e solicitar a movimentação da Initiative para o board da Stream B.
+- Após a movimentação, o card de Dependency original deve ser fechado para preservar rastreabilidade.
+
+### Ciclo de vida no Jira
+
+- **Open:** criação inicial. A dependência é uma proposta de trabalho.
+- **In Analysis:** a Delivery Stream avalia o pedido para decidir se aceita e em que formato.
+- **Waiting for Info:** pausa para esclarecer dúvidas; pode alternar com In Analysis.
+- **Accept:** compromisso formal; define-se due date e o status passa a ser mantido pela Delivery Stream.
+- **Not Accept:** o pedido não é assumido; deve ser realinhado entre os Product Managers.
+- **In Progress:** trabalho em execução pela Delivery Stream.
+- **In Acceptance:** entrega concluída e em validação pela Requester Stream.
+- **Done:** entrega validada, dependência concluída.
+- **Cancelled / Delete:** usados quando a dependência deixa de fazer sentido ou foi criada por engano.
+
+### Responsabilidades e rastreabilidade
+
+- Campos obrigatórios no Jira: `Requester Stream`, `Delivery Stream`, `Dependency Type`.
+- Ao aceitar, a Delivery Stream define a due date e mantém o estado atualizado.
+- Sempre que a dependência gera uma Initiative, associe-a à Initiative Aggregator da Delivery Stream.
+- Use links de rastreabilidade claros, incluindo "Depends On" e "Duplicates", conforme aplicável.
+
+### Como escalar dependências não resolvidas
 
 | Nível                | Quando usar                                                                        | Ação                                 |
 | -------------------- | ---------------------------------------------------------------------------------- | ------------------------------------ |
