@@ -1,5 +1,4 @@
 ---
-name: agile-coach-mc
 name: agile-coach-skill-mc
 
 description: >
