@@ -4,6 +4,30 @@ Qualidade não é apenas "testar" ou "não ter bugs" — é criar valor sustent�
 
 ---
 
+## Papel do Agile Coach na qualidade
+
+O Agile Coach reforça a qualidade quando conecta fluxo, decisão, aprendizagem e responsabilidade partilhada. A intervenção deve ajudar a equipa a prevenir problemas em vez de apenas reagir a falhas.
+
+### O que observar
+- Se a qualidade está a ser tratada apenas no fim do ciclo ou se está integrada desde o refinamento.
+- Se DoR e DoD estão a ser usados como instrumentos de disciplina e aprendizagem, ou apenas como checklist vazio.
+- Se a equipa está a aprender com incidentes, bugs e retrabalho, ou a repetir os mesmos padrões.
+
+### Anti-patterns comuns
+
+| Anti-pattern | Sinal | Pergunta de coaching | Experimento |
+| --- | --- | --- | --- |
+| Qualidade deixada para o fim | Retrabalho, defeitos e atrasos | Onde é que a equipa está a adiar validação e decisão? | Introduzir validação mais cedo e reforçar critérios de aceitação |
+| DoD usado como formalidade | Itens marcados como “done” sem evidência real | O que falta para este item ser realmente entregável? | Reforçar a verificação prática e a participação dos atores relevantes |
+| Falta de aprendizagem com falhas | Mesmos problemas regressam | O que aprendemos com este incidente ou bug? | Criar uma ação curta e observável na próxima iteração |
+
+### Leitura do AC
+- Não substituir a responsabilidade técnica ou funcional de cada papel.
+- Reforçar a colaboração entre PM, TL, QAE, UX/UI e equipa.
+- Conectar qualidade a fluxo, design, métricas e operação contínua.
+
+---
+
 ## Cultura de Qualidade no Produto
 
 A qualidade está integrada em todas as etapas do ciclo de vida — não é uma fase isolada no final.

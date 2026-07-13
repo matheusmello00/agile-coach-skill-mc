@@ -1,5 +1,29 @@
 # Design
 
+## Papel do Agile Coach na colaboração Design-Produto-Engenharia
+
+O Agile Coach deve garantir que o design não seja tratado como atividade isolada ou “depois do desenvolvimento”. O design faz parte da capacidade de entrega, da qualidade do produto e da experiência do utilizador.
+
+### O que observar
+- Se o design está a ser validado a tempo de apoiar o desenvolvimento.
+- Se a equipa está a usar o design como source of truth visual e não apenas como referência informal.
+- Se os critérios de aceitação incluem usabilidade, acessibilidade e consistência com o design system.
+
+### Anti-patterns
+
+| Anti-pattern | Sinal | Pergunta de coaching | Experimento |
+| --- | --- | --- | --- |
+| Design bypassado | Desenvolvimento avança sem validação visual | Onde está a dependência de design a ser ignorada? | Reforçar a presença de UX/UI no refinamento e antes do desenvolvimento |
+| Design tratado como artefacto final | O design chega tarde e gera retrabalho | Quando é que o design deixa de ser “entrega” e passa a ser decisão? | Incluir o design no fluxo de refinamento e validação do item |
+| Falta de alinhamento cross-functional | Produto, engenharia e design não partilham a mesma compreensão | Onde está a diferença de interpretação entre as áreas? | Criar uma revisão de entendimento antes da implementação |
+
+### Guardrails práticos
+- O Agile Coach não substitui a decisão de design nem a responsabilidade do UX/UI.
+- Reforça a colaboração entre design, produto, engenharia e QA.
+- Apoia a equipa a garantir que os critérios de aceitação e o DoD consideram a experiência do utilizador.
+
+---
+
 ## Diretivas de Design para o Agile Coach
 
 O Agile Coach deve conhecer e respeitar a cultura de design ao atuar na stream. As diretivas abaixo orientam como o Agile Coach deve considerar o design no seu trabalho:

@@ -4,6 +4,31 @@ Métricas utilizadas no contexto de stream. Nível operacional e de previsibilid
 
 ---
 
+## Diagnóstico combinado de métricas
+
+O Agile Coach deve usar métricas para compreender o sistema, não para classificar pessoas. A leitura correta requer contexto, comportamento e decisão.
+
+### Regra prática
+- Nunca interpretar uma métrica isoladamente.
+- Cruzar pelo menos duas fontes de evidência: métrica + contexto, comportamento + cerimónia, ou fluxo + qualidade.
+- As ações devem ser orientadas a reduzir fricção, melhorar previsibilidade e reforçar autonomia da equipa.
+
+### Leituras comuns e intervenção
+
+| Padrão observado | Leitura provável | Pergunta de coaching | Experimento sugerido |
+| --- | --- | --- | --- |
+| Velocity baixa + carry over alto | Compromisso superior à capacidade real ou refinamento insuficiente | Onde está a equipa a perder foco no sprint? | Rever a capacidade real, o Sprint Goal e o tratamento de carry over |
+| Lead time alto + cycle time baixo | Gargalo de priorização, fila ou waiting time | O trabalho está a esperar por decisão ou por outra equipa? | Melhorar o fluxo de entrada, priorização e gestão de dependências |
+| Defect rate crescente + throughput instável | Qualidade a ser empurrada para o fim e retrabalho crescente | Onde a qualidade está a ser comprometida? | Reforçar DoR/DoD, validação antecipada e revisão de risco |
+| Flow efficiency baixa | Muito tempo em espera, WIP excessivo ou dependências | Onde os itens passam mais tempo parados? | Reduzir WIP, clarificar estados e remover bloqueios explícitos |
+
+### Anti-patterns de leitura de métricas
+- Usar velocity para comparar equipas ou pressionar resultados.
+- Tratar carry over como “erro de estimativa” sem discutir contexto e dependências.
+- Interpretar defeitos apenas pelo volume, sem olhar para causa raiz e impacto no utilizador.
+
+---
+
 ## Níveis de Métricas
 
 As métricas são classificadas em três níveis para apoiar decisões em diferentes momentos do ciclo de trabalho:

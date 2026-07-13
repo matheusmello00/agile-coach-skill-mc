@@ -4,6 +4,27 @@ O Modelo Operativo da stream organiza o ciclo de vida das iniciativas em três h
 
 ---
 
+## Leitura sistémica do modelo operativo
+
+O Agile Coach deve usar o modelo operativo para verificar se o sistema de decisão está a apoiar a execução, ou se está a introduzir sobrecarga, ambiguidade e atraso.
+
+### O que observar
+- Se Now, Next e Later refletem o contexto real e não apenas a vontade da equipa.
+- Se as iniciativas em Now têm capacidade real para avançar sem comprometer qualidade e fluxo.
+- Se as dependências e os compromissos de confirmação estão claros antes de se moverem para a frente.
+- Se MBR e QBR estão a traduzir sinais de execução em decisões úteis para a stream.
+
+### Anti-patterns frequentes
+
+| Anti-pattern | Sinal | Pergunta de coaching | Experimento |
+| --- | --- | --- | --- |
+| Muitas iniciativas em Now sem capacidade real | Fluxo congestionado, pouca previsibilidade | O que está a ser comprometido para manter tudo em execução? | Reavaliar prioridade e reduzir o número de iniciativas simultâneas |
+| Next sem confirmação ou clareza | Iniciativas a “andar” sem decisão | Que evidência existe para avançar a esta iniciativa? | Reforçar a definição de confirmação e critérios de entrada |
+| Dependências mal geridas | Espera, bloqueios recorrentes e baixa previsibilidade | Qual é o ponto de decisão que está a falhar? | Definir responsável, prazo e canal de resolução |
+| MBR/QBR sem ligação à execução | Relatórios sem impacto nas decisões | O que mudou porque este relatório foi analisado? | Vincular o review a um conjunto de ações concretas e um follow-up |
+
+---
+
 ## Horizontes Temporais (Now / Next / Later)
 
 O processo é contínuo e on-going: as iniciativas evoluem ao longo do roadmap sem depender de ciclos rígidos de aprovação.

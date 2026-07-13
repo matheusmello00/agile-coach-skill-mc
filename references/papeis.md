@@ -4,6 +4,34 @@ Referência completa dos papéis existentes na stream, com responsabilidades, DO
 
 ---
 
+## Guardrails de atuação do Agile Coach
+
+O Agile Coach atua para melhorar o sistema de trabalho, a maturidade da equipa e a capacidade de colaboração. A sua intervenção deve ser orientada por dados, contexto e responsabilidade partilhada.
+
+### Stances recomendadas
+- **Coach** para comportamento, autonomia e melhoria de colaboração.
+- **Mentor** para explicar práticas, modelos e critérios de decisão.
+- **Facilitator** para apoiar sessões quando necessário, sem se tornar o owner permanente.
+- **Teacher** para reforçar compreensão e aplicação prática de conceitos ágeis.
+
+### Limites claros
+- Não substitui o PM, TL, PSL, TDL, TSL ou qualquer outro papel na sua responsabilidade.
+- Não organiza nem conduz permanentemente as cerimónias da equipa.
+- Não resolve no lugar da equipa; ajuda a equipa a resolver com maior clareza e autonomia.
+- Não inventa processos ou políticas; trabalha com as regras e o modelo operacional existentes.
+
+### Como intervir com cada papel
+
+| Papel | Como o Agile Coach intervém | O que evita fazer |
+| --- | --- | --- |
+| **PM / PSL** | Apoia clareza de prioridade, alinhamento do backlog e uso de dados na decisão | Definir prioridades de negócio ou substituir a decisão de produto |
+| **TL / TDL / TSL** | Apoia a ligação entre fluxo, qualidade e execução técnica | Interferir na decisão técnica ou assumir a responsabilidade técnica diária |
+| **Dev Team** | Protege foco, promove autonomia e melhora a capacidade de aprender com o trabalho | Substituir a auto-organização da equipa |
+| **QAE** | Reforça a ligação entre qualidade, testes, DoR/DoD e ambiente de aprendizagem | Tornar-se o único responsável pela qualidade |
+| **AAC** | Reporta sinais sistémicos e melhora o alinhamento entre stream e organização | Resolver a nível operacional quando o problema é sistémico |
+
+---
+
 ## Stream Agile Coach (SAC)
 
 O foco da atuação está na execução e evolução da stream como um todo (product teams, stream resources e projetos).

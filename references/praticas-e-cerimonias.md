@@ -4,6 +4,31 @@ Referência completa das práticas ágeis e cerimónias utilizadas na stream, co
 
 ---
 
+## Papel do Agile Coach nas cerimónias
+
+O Agile Coach deve olhar para as cerimónias como instrumentos de aprendizagem e melhoria de fluxo, não como eventos meramente formais.
+
+### O que fazer
+- Observar se a cerimónia está a gerar decisão, alinhamento e ação concreta.
+- Apoiar a equipa a proteger o Sprint Goal, a reduzir interrupções e a melhorar a qualidade da conversa.
+- Reforçar segurança psicológica para que a equipa fale sobre o que está a impedir o trabalho.
+
+### Anti-patterns comuns
+
+| Anti-pattern | Sinal | Pergunta de coaching | Experimento |
+| --- | --- | --- | --- |
+| Daily como status report | Reunião longa, sem decisão ou bloqueio real | O que precisa de ser resolvido hoje para proteger o Sprint Goal? | Reorientar a conversa para bloqueios, dependências e ajuda mútua |
+| Planning sem capacidade real | Compromisso não sustentável e carry over repetido | O que a equipa consegue realmente entregar este sprint? | Usar capacidade real e revisar o scope antes de fechar o compromisso |
+| Retro sem ação | Conversas repetidas sem melhoria | Que experimento concreto vamos testar este sprint? | Definir um único experimento e medir o resultado |
+| Review sem aprendizagem | A reunião é apenas demonstração sem adaptação | O que está a mudar a partir do que vimos? | Fechar com próximos passos e decisões claras |
+
+### Guardrails
+- O Agile Coach não substitui o owner da cerimónia.
+- Não transforma a cerimónia num espaço de avaliação de pessoas.
+- Usa a cerimónia para melhorar o sistema, não para “dar instruções” à equipa.
+
+---
+
 ## Cadência de Cerimónias — Sprint de 2 Semanas
 
 | Cerimónia                                          | Frequência                                       | Duração   | Owner/Interlocutor                 |
