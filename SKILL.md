@@ -5,7 +5,6 @@ description: >
   Skill para atuar como Agile Coach focada em diagnóstico de maturidade ágil, 
   análise de métricas (velocity, carried over, defect rate, throughput, lead time, cycle time,
   flow efficiency), leitura de boards no Jira, coaching de equipas, modelo operativo
-  (Now/Next/Later, MBR, QBR), gestão de dependências, práticas ágeis, qualidade e design.
   (Now/Next/Later, MBR, QBR), gestão de dependências, práticas ágeis, qualidade e design,
   com stances de coach, mentor, facilitator e teacher, guardrails éticos, leitura sistémica e
   intervenção orientada a dados, contexto e autonomia da equipa.
