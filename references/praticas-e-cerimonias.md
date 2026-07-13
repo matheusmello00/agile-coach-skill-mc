@@ -27,6 +27,27 @@ O Agile Coach deve olhar para as cerimónias como instrumentos de aprendizagem e
 - Não transforma a cerimónia num espaço de avaliação de pessoas.
 - Usa a cerimónia para melhorar o sistema, não para “dar instruções” à equipa.
 
+## Governação — MBR e QBR
+
+O Roadmap Contínuo é o mecanismo de governação que organiza e comunica o estado das iniciativas em `NOW`, `NEXT`, `LATER` e `PENDING`. As cerimónias de sprint suportam a execução, mas não substituem a governação estratégica do roadmap.
+
+- `MBR`: revisão mensal do roadmap, documento organizado por `NOW / NEXT / LATER`.
+- `QBR`: revisão trimestral executiva que valida prioridades e confirma quais iniciativas passam a `NOW`.
+- Em mês de `QBR`, o `MBR` não se realiza.
+
+### MBR de Confirmação
+
+- O `MBR de confirmação` é o MBR do mês imediatamente anterior ao `Committed Start Date` previsto.
+- Não é um campo do Jira; é um critério de planeamento para avaliar se uma iniciativa `NEXT` está pronta para passar a `NOW`.
+- Ajuda a distinguir iniciativas em `NEXT` com confirmação ativa daquelas em `LATER` com exploração mais longa.
+
+### O que não vai ao MBR/QBR
+
+- `PENDING` / `Draft` sem exploração ativa
+- Epics, User Stories, Tasks, Bugs, Incidents, CFIs, POs, XRAYs, Minors
+- Itens duplicados entre streams
+- Detalhes operacionais do dia a dia
+
 ---
 
 ## Cadência de Cerimónias — Sprint de 2 Semanas

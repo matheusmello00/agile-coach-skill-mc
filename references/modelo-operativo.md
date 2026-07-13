@@ -25,7 +25,7 @@ O Agile Coach deve usar o modelo operativo para verificar se o sistema de decis�
 
 ---
 
-## Horizontes Temporais (Now / Next / Later)
+## Horizontes Temporais (Now / Next / Later / Pending)
 
 O processo é contínuo e on-going: as iniciativas evoluem ao longo do roadmap sem depender de ciclos rígidos de aprovação.
 
@@ -34,6 +34,18 @@ O processo é contínuo e on-going: as iniciativas evoluem ao longo do roadmap s
 | **NOW**   | Iniciativas em execução ativa                                                  | In Progress, Rollout, concluídas no mês (Done), a arrancar no mês seguinte (Committed) |
 | **NEXT**  | Iniciativas em exploração ativa ou planeamento com MBR de confirmação definido | Exploration, Planning, Ready to Commit                                                 |
 | **LATER** | Iniciativas identificadas sem arranque previsto a curto prazo                  | Draft, Exploration sem MBR de confirmação                                              |
+| **PENDING** | Iniciativas em Draft sem exploração activa nem prioridade definida           | Draft                                                                                 |
+
+---
+
+## PENDING
+
+O horizonte **PENDING** agrupa iniciativas em `Draft` que ainda não têm exploração ativa, prioridade definida nem horizonte de arranque.
+
+- Estado Jira: `Draft`
+- Sem `Committed Start Date`, `Launch Date` ou `End Date`
+- Repositório do roadmap aguardando momento certo
+- Não é reportado por defeito no MBR/QBR
 
 ---
 
@@ -102,11 +114,22 @@ Epics, User Stories, Tasks, Bugs, Incidents, CFIs, POs, XRAYs, Minors, Iniciativ
 
 ## MBR de Confirmação
 
-O MBR de Confirmação é um conceito de planeamento utilizado no documento de MBR para indicar em que mês uma iniciativa em NEXT deve ser considerada para compromisso formal. Não é um campo do Jira; é um input de governança que ajuda a priorizar o pipeline e a preparar os dados do QBR.
+O MBR de Confirmação é um conceito de planeamento usado para indicar quando uma iniciativa em `NEXT` deve ser considerada para avanço a `NOW`.
 
-- **Função:** indicar a janela de confirmação para uma iniciativa em NEXT.
-- **Não é data de compromisso:** mantém a iniciativa em LATER/NEXT até o QBR ou até a decisão de avançar.
-- **Uso:** ajuda a comunicar se a iniciativa está em avaliação ativa ou em exploração a longo prazo.
+- É o MBR do mês imediatamente anterior ao `Committed Start Date` previsto.
+- Não é um campo do Jira; é um input de governança usado no documento do MBR ou QBR.
+- Serve para priorizar o pipeline e preparar os dados do QBR, sem comprometer a iniciativa até a decisão formal.
+
+---
+
+## Rebaseline — Committed Dates
+
+O Rebaseline é o processo formal de atualização das datas comprometidas após o início da execução.
+
+- Pré-compromisso (`Draft/Exploration/Planning`): as datas podem ser atualizadas diretamente; não é Rebaseline.
+- Pós-compromisso (`Committed/In Progress/Rollout`): qualquer alteração de `Committed Start Date`, `Launch Date` ou `End Date` segue o processo de Rebaseline do Jira.
+- O Jira mantém os valores originais em campos como `First Committed Dates` e incrementa contadores como `Launch/End Rebaseline Count`.
+- O campo `Rebaseline Reason` é obrigatório para justificar a alteração.
 
 ---
 
